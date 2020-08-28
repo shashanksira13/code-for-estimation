@@ -7,12 +7,12 @@ function q_bi = es_quest_2(sm_output,es_const)
 %   Output:
 %       q_bi: final estimated quaternion
 
-%%Code
+%% Code
 
 %extracting different variables form the star matching output
-st_N_Match = sm_output.st_N_Match;
-st_op_bi   = sm_output.st_op_bi;
-st_op_ri   = sm_output.st_op_ri;
+st_N_Match = sm_output.N;
+st_op_bi   = sm_output.op_bi;
+st_op_ri   = sm_output.op_ri;
 
 
 %weights(currently taken each as 1)
